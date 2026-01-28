@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mates Group | Contact</title>
+
+    <link rel="shortcut icon" href="img/mg-favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            margin: 50px 100px;
+        }
+
+        .container h2 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 60px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .contact-card {
+            background: rgb(20, 20, 60);
+            border-radius: 14px;
+            padding: 30px 28px;
+            width: 90%;
+            max-width: 350px;
+            text-align: left;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(170, 107, 228, 0.4);
+        }
+
+        .contact-card h4 {
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
+
+        .contact-card p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 8px;
+        }
+
+        .contact-card strong {
+            font-weight: 600;
+        }
+
+        .text {
+            margin-top: 70px;
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.9;
+            color: #e6e6e6;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width: 900px) {
+            .row {
+                justify-content: center;
+            }
+
+            .contact-card {
+                max-width: 100%;
+            }
+
+            .container h2 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/mg-removebg-preview.png" alt="Logo">
+            <a href="portfolio.html"><span>PORTFOLIO</span></a>
+        </div>
+
+        <nav class="navbar side-bar">
+
+            <div class="menu-toggle" id="menuToggle">
+                ☰
+            </div>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Home <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="introduction.html">Introduction</a></li>
+                        <li><a href="latestupdate.html">Latest Update</a></li>
+                        <li><a href="featuredvideos.html">Featured Videos</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        About <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="ourmission.html">Our Mission</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Services <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="websitedesgning.html">Website Designing</a></li>
+                        <li><a href="videoediting.html">Video Editing</a></li>
+                        <li><a href="graphicdesgning.html">Graphic Designing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contactform.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Contact Us For Your Order</h2>
+
+        <div class="row">
+            <div class="contact-card">
+                <h4>WhatsApp</h4>
+                <p>Husnain (CE): +92 322 3272957<br>Talha (GE): +92 322 9486594<br>Musharib (EE): +92 316 0451234<br>Faiz ul Azeem (TM): +92 349 6533786</p>
+                <p><strong>Availability:</strong> Anytime</p>
+            </div>
+
+            <div class="contact-card">
+                <h4>Email</h4>
+                <p>husnain.mustafa3272@gmail.com</p>
+                <p>rashidtalha71@gmail.com</p>
+                <p>musharib789@gmail.com</p>
+                <p>faiz123@gmail.com</p>
+                <p><strong>Availability:</strong> Anytime</p>
+            </div>
+
+            <div class="contact-card">
+                <h4>Location</h4>
+                <p>Riphah International University, <br> Muslim Town Campus, Lahore.</p>
+                <p><strong>Availability:</strong> Only in daytime</p>
+            </div>
+        </div>
+
+        <p class="text">
+            Our company has prepared a comprehensive and well-organized table to provide customers with a wide range of
+            professional designing services. This table is specially designed to help clients easily place orders for
+            website designing, video editing, and graphic designing services according to their specific requirements.
+            It clearly presents all essential information, including service details and multiple ways to contact us,
+            ensuring a smooth and convenient ordering process. Customers can choose the service that best fits their
+            needs and communicate with us without any difficulty. To place an order, customers should first visit the
+            Services dropdown menu, where all relevant information, options, and guidelines are mentioned in detail to
+            help them make the right decision.
+        </p>
+    </main>
+
+    <footer class="footer">
+        <p>&#169; matesgroupportfolio.com | All Rights Reserved</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

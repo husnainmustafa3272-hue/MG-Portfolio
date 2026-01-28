@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mates Group | AboutUs</title>
+
+    <link rel="shortcut icon" href="img/mg-favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            margin: 50px 100px;
+        }
+
+        .grid {
+            align-items: start;
+        }
+
+        .text h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .text p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .p-1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+
+        .p-1 .text-block {
+            align-self: start;
+        }
+
+        .p-1 .text-block p {
+            margin-top: 0;
+        }
+
+        .p-1 .text-block p:first-child {
+            margin-bottom: 15px;
+        }
+
+        .p-1 .text-block p:nth-child(2) {
+            margin-bottom: 15px;
+        }
+
+        .p-1 .text-block p:last-child {
+            margin-bottom: 0;
+        }
+
+        .p-1 .image {
+            overflow: hidden;
+        }
+
+        .p-1 .image img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .p-2 {
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 800px) {
+            .p-1 {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/mg-removebg-preview.png" alt="Logo">
+            <a href="portfolio.html"><span>PORTFOLIO</span></a>
+        </div>
+
+        <nav class="navbar side-bar">
+
+            <div class="menu-toggle" id="menuToggle">
+                ☰
+            </div>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Home <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="introduction.html">Introduction</a></li>
+                        <li><a href="latestupdate.html">Latest Update</a></li>
+                        <li><a href="featuredvideos.html">Featured Videos</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        About <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="ourmission.html">Our Mission</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Services <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="websitedesgning.html">Website Designing</a></li>
+                        <li><a href="videoediting.html">Video Editing</a></li>
+                        <li><a href="graphicdesgning.html">Graphic Designing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contactform.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="text">
+            <h1>Our Mission</h1>
+            <div class="p-1">
+                <div class="text-block">
+                    <p>
+                        Our mission is centered around harnessing the power of technology and creativity to develop innovative web solutions and captivating video content. This goal is driven by a desire to inspire and engage our audience, creating a lasting impact through our digital products. We strive to blend functionality with aesthetic appeal, ensuring every project exceeds expectations consistently.
+                    </p>
+
+                    <p>
+                        To achieve this mission, we focus on two key areas: web development and video content creation. Our web development team strives to create user-friendly websites that enhance online experiences, making it easier for users to navigate and find the information they need. Meanwhile, our video editing team crafts compelling narratives through visual storytelling, capturing audiences' attention and conveying messages in a meaningful way. We constantly innovate to deliver high-quality results every single time.
+                    </p>
+                </div>
+
+                <div class="image">
+                    <img src="img/ourmission.jpeg" alt="mission">
+                </div>
+            </div>
+
+            <p class="p-2">
+                Ultimately, our goal is to push the boundaries of digital media by creating high-quality products that effectively meet our clients’ needs. We strive to empower individuals and organizations to share their stories, communicate their messages, and achieve their objectives in the ever-evolving digital landscape. By combining creativity, technology, and strategic thinking, we aim to foster meaningful connections and provide tools that inform, engage, and inspire. Through our work, we seek to make a positive impact on society, helping people connect, learn, and grow while shaping a more informed, collaborative, and digitally connected world.
+            </p>
+
+            <p class="p-2">
+                Through collaboration, continuous learning, and an unwavering commitment to excellence, our team strives to achieve its mission of delivering outstanding results in every project we undertake. We believe that innovation comes from working together, sharing ideas, and constantly improving our skills. By fostering a culture of creativity, accountability, and perseverance, we ensure that every challenge is met with thoughtful solutions. Our goal is not only to succeed in our endeavors but also to make a meaningful and lasting impact in the digital world, creating value that benefits both users and communities alike.
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; matesgroupportfolio.com | All Rights Reserved</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

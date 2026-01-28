@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mates Group | Portfolio</title>
+
+    <link rel="shortcut icon" href="img/mg-favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="img/mg-removebg-preview.png" alt="Logo">
+            <a href="portfolio.html"><span>PORTFOLIO</span></a>
+        </div>
+
+        <nav class="navbar side-bar">
+
+            <div class="menu-toggle" id="menuToggle">
+                ☰
+            </div>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Home <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="introduction.html">Introduction</a></li>
+                        <li><a href="latestupdate.html">Latest Update</a></li>
+                        <li><a href="featuredvideos.html">Featured Videos</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        About <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="ourmission.html">Our Mission</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Services <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="websitedesgning.html">Website Designing</a></li>
+                        <li><a href="videoediting.html">Video Editing</a></li>
+                        <li><a href="graphicdesgning.html">Graphic Designing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contactform.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi! We are <span class="purple">Mates Group</span></h1>
+            <h2>We are <span id="element"></span></h2>
+        </div>
+
+        <div class="hero-image">
+            <img src="img/web1.png" alt="Web Development">
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SOFTWARES SECTION -->
+    <section class="skills">
+        <h2>Our Expertise</h2>
+
+        <div class="skills-grid">
+            <div class="card">
+                <img src="img/html logo.png" alt="HTML">
+                <h3>HTML</h3>
+                <p>HTML tands for Hypertext Markup Language. It is a standardized system for tagging text files
+                    toachieve font, colour, graphic, and hyperlink effects on World Wide Web pages.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/css logo.png" alt="CSS">
+                <h3>CSS</h3>
+                <p>CSS stands for Cascading Style Sheets. It is used to define styles for your web pages, including the
+                    design, layout and variations in display for different devices and screen sizes.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/js logo.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>It is a language in which an object-oriented computer programming language commonly used to create
+                    interactive effects within web browsers.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/bhpv logo.png" alt="B&H">
+                <h3>B&H Photo Video</h3>
+                <p>B&H Photo Video is a retailer that sells photo, video, and pro audio equipment. They are the largest
+                    non-chain camera store in the United States.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/ps logo.png" alt="Photoshop">
+                <h3>Photoshop</h3>
+                <p>Photoshop is a software program that allows users to create, edit, and manipulate images, artwork,
+                    and illustrations. It's the industry standard for image editing and is used by photographers,
+                    graphic designers, and web designers.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/ai logo.png" alt="Illustrator">
+                <h3>Adobe Illustrator</h3>
+                <p>Adobe Illustrator is a vector graphics software program that lets users create illustrations, logos,
+                    and other designs. It's used by graphic designers, web designers, and artists to create high-quality
+                    artwork.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h2>Thanks for Visiting Our Portfolio</h2>
+
+        <div class="social-links">
+            <a href="https://facebook.com"><img src="img/fb.png" alt="Facebook"></a>
+            <a href="https://snapchat.com"><img src="img/sc.png" alt="Snapchat"></a>
+            <a href="https://instagram.com"><img src="img/insta.png" alt="Instagram"></a>
+        </div>
+
+        <p>© matesgroupportfolio.com | All Rights Reserved</p>
+    </footer>
+
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="portfolio.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developers', 'Video Editors', 'Graphic Designers'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>

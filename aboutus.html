@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mates Group | AboutUs</title>
+
+    <link rel="shortcut icon" href="img/mg-favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            margin: 50px 100px;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title h1 {
+            font-size: 36px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .team-section {
+            flex: 1;
+            position: relative;
+        }
+
+        .member {
+            margin: 40px 0;
+        }
+
+        .member.left {
+            margin-left: 50px;
+        }
+
+        .member.right {
+            margin-left: 300px;
+        }
+
+        .member h3 {
+            font-size: 25px;
+        }
+
+        .member p {
+            color: #909090;
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .text {
+            margin-top: 40px;
+            margin-bottom: 80px;
+        }
+
+        .text p {
+            text-align: center;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .text ul {
+            list-style: disc;
+            padding-left: 40px;
+            transform: translate(0, 20px);
+            margin-bottom: 40px;
+        }
+
+        .text li {
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        /* Responsive */
+        @media (max-width: 800px) {
+            .row {
+                flex-direction: column;
+            }
+
+            .member.left,
+            .member.right {
+                margin-left: 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/mg-removebg-preview.png" alt="Logo">
+            <a href="portfolio.html"><span>PORTFOLIO</span></a>
+        </div>
+
+        <nav class="navbar side-bar">
+
+            <div class="menu-toggle" id="menuToggle">
+                ☰
+            </div>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Home <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="introduction.html">Introduction</a></li>
+                        <li><a href="latestupdate.html">Latest Update</a></li>
+                        <li><a href="featuredvideos.html">Featured Videos</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        About <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="ourmission.html">Our Mission</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Services <span class="arrow">▾</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="websitedesgning.html">Website Designing</a></li>
+                        <li><a href="videoediting.html">Video Editing</a></li>
+                        <li><a href="graphicdesgning.html">Graphic Designing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contactform.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="title">
+            <h1>About Us</h1>
+        </div>
+
+        <div class="row">
+            <!-- Left Content -->
+            <div class="team-section">
+                <div class="member left">
+                    <h3>Husnain Mustafa</h3>
+                    <p>(Coding Expert)</p>
+                </div>
+
+                <div class="member right">
+                    <h3>Talha Rashid</h3>
+                    <p>(Graphics Expert)</p>
+                </div>
+
+                <div class="member left">
+                    <h3>Musharib Ijaz</h3>
+                    <p>(Editing Expert)</p>
+                </div>
+
+                <div class="member right">
+                    <h3>Faiz ul Azeem</h3>
+                    <p>(Task Manager)</p>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="image-section">
+                <img src="img/aboutus.png" alt="about">
+            </div>
+        </div>
+
+        <div class="text">
+            <p>
+                The Mates Group comprises a diverse and talented team of experts, each bringing unique skills, creative
+                perspectives, and professional experience to the table. United by a shared vision, the team collaborates
+                effectively to deliver high-quality and innovative solutions. This introduction reflects their
+                commitment to excellence, teamwork, and continuous improvement, highlighting their dedication to
+                achieving outstanding results for every project they undertake.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Husnain Mustafa</strong> the Coding Expert, develops the technical framework, providing the
+                    underlying structure for the project. Her expertise in coding ensures a solid foundation, enabling
+                    the team to build a high-quality final product.
+                </li>
+                <li>
+                    <strong>Talha Rashid</strong> the Graphics Expert, brings the project to life with his creative
+                    visuals. His engaging graphics and visuals enhance the overall user experience, making the final
+                    product more appealing and effective.
+                </li>
+                <li>
+                    <strong>Musharib Ijaz</strong> the Editing Expert, refines and perfects the final output,
+                    guaranteeing accuracy, quality, and attention to detail. His meticulous review ensures that the
+                    final product meets the team's high standards, reflecting their commitment to excellence.
+                </li>
+                <li>
+                    <strong>Faiz ul Azeem</strong> the Task Manager, who oversees project timelines and coordination. This
+                    critical role ensures that projects are completed on time and that all team members are working in
+                    harmony.
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&#169; matesgroupportfolio.com | All Rights Reserved</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
